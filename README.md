@@ -2,7 +2,7 @@
 This repository contains the implementation of BanglaOCR system and preprocessing.
 
 # Pre Process:
-  ## Page Cropper
+  ## Page Area Cropping
   This pre-process technique cut out the unwanted background portion and extract the written area from the image.
   
   `Run "Book_Page_Cropper.ipynb" Notebook to perform page cropping process.`
