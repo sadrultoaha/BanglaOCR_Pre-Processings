@@ -1,9 +1,8 @@
 # BanglaOCR 
-This repository contains the implementation of BanglaOCR system and preprocessing.
-
+This repository contains the solution to two challenging tasks of the OCR system, e.g.Text area segmentation and colored text normalization.
 # Pre Process:
-  ## Page Area Cropping
-  This pre-process technique cut out the unwanted background portion and extract the written area from the image.
+  ## Page Area Segmentation
+  This pre-process technique cutaway the unwanted background portion and extract the written area from the image.
   
   `Run "Book_Page_Cropper.ipynb" Notebook to perform page cropping process.`
   
@@ -13,7 +12,7 @@ This repository contains the implementation of BanglaOCR system and preprocessin
 ![Res_4_re(2048)](https://user-images.githubusercontent.com/16709991/83765489-0d36e880-a69d-11ea-9fe2-6ef598d7c4d8.png)
 
 
-  ## Multi Colored Text Enhancement
+  ## Multi Colored Text Normalization
   Some text lines are difficult or impossible to recognize when text is colorful. 
   So this pre-processing teqhnique is based on intelligent binarization and image color processing.
   It enhances the color text lines and convert the color and greyscale images into black-and-white images successfully.
